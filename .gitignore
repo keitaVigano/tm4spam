@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Personal scripts
+# Script locali di automazione
+start_tm4scam.ps1
