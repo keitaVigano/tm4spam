@@ -1989,6 +1989,21 @@ build = ["build", "twine"]
 test = ["pytest", "pytest-cov"]
 
 [[package]]
+name = "langdetect"
+version = "1.0.9"
+description = "Language detection library ported from Google's language-detection."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "langdetect-1.0.9-py2-none-any.whl", hash = "sha256:7cbc0746252f19e76f77c0b1690aadf01963be835ef0cd4b56dddf2a8f1dfc2a"},
+    {file = "langdetect-1.0.9.tar.gz", hash = "sha256:cbc1fef89f8d062739774bd51eda3da3274006b3661d199c2655f6b3f6d605a0"},
+]
+
+[package.dependencies]
+six = "*"
+
+[[package]]
 name = "language-data"
 version = "1.3.0"
 description = "Supplementary data about languages used by the langcodes module"
@@ -5865,4 +5880,4 @@ propcache = ">=0.2.1"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.13"
-content-hash = "8579de29d3d70ff88681e05acdc7bda0d4e04f808e32f4e57010872cf4b8b5d6"
+content-hash = "29256ae6d874aad1fd77ed08de8a7a80e154f0d046d1ae3deae72c2fd8875679"
